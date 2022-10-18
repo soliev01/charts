@@ -3,6 +3,17 @@
 **This project is no longer maintained**, and will not receive further updates. Community members interested in collaborating on a community-maintained fork can coordinate in [this issue](https://github.com/google/charts/issues/798).
 
 ---
+To use this fork use a dependency override:
+
+``` 
+dependency_overrides:
+  # Keep until https://github.com/google/charts/issues/798 is resolved.
+  charts_flutter:
+    git:
+      url: https://github.com/fzyzcjy/charts.git
+      ref: master
+      path: charts_flutter
+```
 
 Charts is a general charting library, currently enabled for the
 [Flutter mobile UI framework](https://flutter.io).
